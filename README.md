@@ -18,18 +18,18 @@ Tarea-RA1-Elementos-Programa/
    * Definición y diferenciación formal entre **Código Fuente**, **Código Objeto** y **Código Ejecutable**.  
    * Fases completas de compilación y ejecución: Análisis Léxico, Sintáctico, Semántico, Generación de Código Intermedio, Enlazado (*Linker*) y Carga (*Loader*).  
 2. **Clasificación de Lenguajes de Programación:**  
-   * **Nivel de Abstracción:** Alto, Medio y Bajo nivel con ejemplos y justificación técnica.  
-   * **Paradigmas de Programación:** Imperativo y Declarativo con taxonomía detallada.
+   * **Nivel de Abstracción:** Alto, Medio y Bajo nivel con ejemplos y justificación.  
+   * **Paradigmas de Programación:** Imperativo y Declarativo.
 
 ### **Parte 2: Actividad Práctica y de Análisis**
 
 1. **Identificación de Paradigmas en Fragmentos de Código:**  
    * **Fragmento 1 (Suma iterativa de lista):** Identificado como *Imperativo*.  
    * **Fragmento 2 (Consulta a Base de Datos):** Identificado como *Declarativo*.  
-   * **Fragmento 3 (Factorial Recursivo):** Identificado como *Declarativo (Funcional)*.  
+   * **Fragmento 3 (Factorial Recursivo):** Identificado como *Declarativo*.  
    * **Fragmento 4 (Filtrado secuencial de productos):** Identificado como *Imperativo*.  
 2. **Trabajo en Grupo \- Caso Real Cotidiano:**  
-   * Caso de estudio: *Preparación de una Taza de Café Expreso*.  
+   * Caso de estudio: *Preparación de una Taza de Café latte*.  
    * Comparación entre descripción **Imperativa** (secuencia paso a paso) y **Declarativa** (especificación de propiedades finales).  
    * Tabla comparativa detallada de ventajas, inconvenientes y abstracción de ambos enfoques.
 
