@@ -44,4 +44,5 @@ Tarea-RA1-Elementos-Programa/
 * **Curso:** 2025/2026  
 * **Módulo:** Programación / Entornos de Desarrollo  
 * **Estado:** Finalizado y listo para evaluación
-* **Palabra del día:** Compañero 
+* **Palabra del día:** Compañero
+* **Uso de ia:** He usado chat gpt y gemini para la mayoria de las definiciones mas complejas y para entender gran parte del contenido del trabajo. Tambien he usado la ia del visual estudio para acabar con un informe.md atractivo para la lectura y comodo para la evaluacion :).
