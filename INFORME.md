@@ -87,3 +87,55 @@ Por ejemplo, si se escribiera `"Hola, " + "mundo!"`, el compilador podría conca
 La JVM carga el *bytecode* `.class`, resuelve las clases y recursos necesarios (como `java.lang.System`) y lo interpreta o lo compila a instrucciones de máquina —por ejemplo, para arquitecturas x86 o ARM— que puede ejecutar el procesador.
 
 En el ejemplo, este proceso permite que se muestre `Hola, mundo!` en la consola.
+# Punto 2. Clasificación de lenguajes de programación
+
+Los lenguajes de programación se pueden clasificar de dos formas: según su nivel de abstracción —alto, medio o bajo, dependiendo de cuánto se alejan del lenguaje máquina— y según su paradigma de programación, que describe cómo se estructura y desarrolla un programa.
+
+## 1. Según el nivel de abstracción
+
+### 1.1. Lenguajes de alto nivel
+
+Son lenguajes que utilizan instrucciones y estructuras fáciles de comprender para las personas y ocultan gran parte de los detalles del hardware. Dentro de este nivel podemos encontrar lenguajes con diferentes paradigmas.
+
+- **Java:** es un lenguaje de alto nivel. Utiliza instrucciones, variables, condiciones y bucles para indicar paso a paso cómo debe realizarse una tarea. Además, permite trabajar sin tener que gestionar directamente la memoria.
+- **Python:** es un lenguaje de alto nivel. Tiene una sintaxis sencilla y permite desarrollar programas sin necesidad de conocer los detalles internos del procesador.
+
+### 1.2. Lenguajes de nivel medio
+
+Son un punto intermedio entre los lenguajes de alto y bajo nivel, ya que combinan características de ambos. Permiten utilizar estructuras de alto nivel, pero también proporcionan un mayor control sobre la memoria y los recursos del sistema.
+
+- **C:** es un lenguaje de nivel medio. Permite utilizar estructuras como condiciones, bucles y funciones, pero también manipular direcciones de memoria mediante punteros.
+- **C++:** es un lenguaje de nivel medio. Permite utilizar características de alto nivel, como las clases y los objetos, pero también trabajar directamente con la memoria y los recursos del sistema mediante elementos como los punteros.
+
+### 1.3. Lenguajes de bajo nivel
+
+Son lenguajes muy próximos al lenguaje máquina y permiten controlar de forma muy directa el funcionamiento del procesador y otros componentes del hardware.
+
+- **Ensamblador x86:** es un lenguaje de bajo nivel e imperativo, ya que utiliza instrucciones que indican directamente al procesador qué operaciones debe realizar, como `MOV` o `ADD`.
+- **Ensamblador ARM:** también es un lenguaje de bajo nivel e imperativo, ya que utiliza instrucciones específicas de los procesadores ARM para realizar operaciones directamente sobre el hardware.
+
+Estos lenguajes necesitan un traductor que convierte las instrucciones escritas en ensamblador en instrucciones que el procesador pueda ejecutar.
+
+## 2. Clasificación según el paradigma de programación
+
+Aunque anteriormente hemos indicado el paradigma de algunos ejemplos, también podemos clasificarlos de forma general en dos grupos:
+
+### 2.1. Lenguajes imperativos
+
+Los lenguajes imperativos dicen cómo realizar una tarea mediante una serie de instrucciones que se ejecutan siguiendo un orden y que pueden modificar el estado del programa.
+
+**Ejemplos:**
+
+- **C:** utiliza instrucciones secuenciales, variables, condiciones y bucles para indicar paso a paso cómo resolver un problema.
+- **Java:** Define una secuencia de instrucciones, utiliza condiciones y bucles y modifica variables para conseguir un resultado.
+
+Por ejemplo, para sumar dos números, podemos indicar al programa que guarde los valores, realice la suma y después muestre el resultado.
+
+### 2.2. Lenguajes declarativos
+
+Los lenguajes declarativos dicen que resultado se quiere obtener, sin tener que especificar todos los pasos que debe seguir el sistema para conseguirlo.
+
+**Ejemplos:**
+
+- **SQL:** Solicita determinados datos de una base de datos mediante consultas, indicando qué información queremos obtener, sin tener que especificar cómo debe localizarla físicamente el sistema.
+- **Prolog:** Expresa hechos y reglas lógicas para que el sistema encuentre soluciones a una consulta.
