@@ -40,6 +40,8 @@ Tarea-RA1-Elementos-Programa/
 
 ## **👤 Autoría**
 
+* **Autor:** Álvaro González Medina
 * **Curso:** 2025/2026  
 * **Módulo:** Programación / Entornos de Desarrollo  
 * **Estado:** Finalizado y listo para evaluación
+* **Palabra del día:** Compañero 
